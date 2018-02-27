@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    
+          <div id="backgroundDiv">
+        <img src="Website Background.png">
+      </div>
+    
+    <div id="mainDiv">
+      
+
+      
+      <div id="titleDiv">
+        <h1>Sandwiches Galore</h1>
+      </div>
+        <div id="buttonDiv">
+          <p id="instructionsCopy">Sort by Category:</p>
+          <select id="myDropdown" onchange="search();">
+            <option class="dropdown-option" value="all">All</option>
+            <option class="dropdown-option" value="beef">Beef</option>
+            <option class="dropdown-option" value="bacon">Bacon</option>   
+            <option class="dropdown-option" value="cheese">Cheese</option>
+            <option class="dropdown-option" value="chicken">Chicken</option>
+            <option class="dropdown-option" value="egg">Egg</option>
+            <option class="dropdown-option" value="hamburger">Hamburger</option>
+            <option class="dropdown-option" value="melt">Melt</option>
+            <option class="dropdown-option" value="pita">Pita</option>
+            <option class="dropdown-option" value="pork">Pork</option>
+            <option class="dropdown-option" value="steak">Steak</option>
+            <option class="dropdown-option" value="toast">Toast</option>
+            <option class="dropdown-option" value="turkey">Turkey</option>
+            <option class="dropdown-option" value="vegetable">Vegetable</option>
+          </select>
+        </div>
+    </div>
+    
+    
+  </body>
+</html>

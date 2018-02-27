@@ -1,0 +1,92 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#mainDiv{
+  width: 75%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#backgroundDiv{
+  width: 75%;
+  height: 110%;
+  position: fixed;
+  overflow:hidden;
+  top: -25px;
+  left: 12.5%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+
+#buttonDiv{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.75);
+  background-color:white;
+}
+
+#instructionsCopy {
+  margin-bottom: -10px;
+}
+
+#myDropdown{
+  width: 95%;
+  margin: 5px;
+  background-color:white;
+}
+
+#titleDiv{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.75);
+  background-color:white;
+}
+
+h1 {  
+  text-align: center;
+  font-size: 72pt;
+}
+
+h2 {
+  font-size: 20pt;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+p {
+  font-size: 14pt;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.resultDiv {
+  width: 67.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.75);
+  background-color:white;
+}
